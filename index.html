@@ -4,19 +4,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wide Open Clone</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css"/>
     <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+
   </head>
   <body>
     <!-- Main Page View  -->
     <section class="masthead">
-        <header class="top-menu">
-          <div class="container">
-              <a href="/"></a>
-          </div>
-          <div class="hamcontainer">
-          </div>
-        </header>
+      <nav class="nav-bar">
+        <div class="nav-logo"></div>
+        <div class="nav-link">Services</div>
+        <div class="nav-link">Company</div>
+        <div class="nav-link">Portfolio</div>
+        <div class="nav-link">Contact</div>
+        <i class="fa fa-bars" id="hamburger" aria-hidden="true"></i>
+      </nav>
+      <div class="nav-mobile">
+        <ul>
+          <li>Services</li>
+          <li>Company</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
